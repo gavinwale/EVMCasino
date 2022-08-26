@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -52,6 +57,20 @@
 			},
 			{
 				"inputs": [],
+				"name": "drawLottery",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "enterLottery",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getCasinoBalance",
 				"outputs": [
 					{
@@ -66,17 +85,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_user",
-						"type": "address"
-					}
-				],
-				"name": "getUserBalance",
-				"outputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "lotteryEntries",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -184,7 +203,7 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
@@ -207,11 +226,11 @@
 			]
 		},
 		"contracts/main.sol": {
-			"keccak256": "0xab8be26bdecce15d14878eb3603f515e494d28d9ab2ba161b7c90474b9490e95",
+			"keccak256": "0x7949531f8bd970c331aa6ac0f219e5415ce581aa3d43ae05c400e6c0c1d927bc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8939629eef1f3a86f2679aade1176edf28f46c69fe9bfe26821bfdbc313349ed",
-				"dweb:/ipfs/Qmeu26LXLJcStmoUukEbACQxQ59JegyMHGmdgZmNaL7MBB"
+				"bzz-raw://59717d5edba56afca9b455b8fd37e6323e4ebb6c390de92e9319c30e25afa1e8",
+				"dweb:/ipfs/QmUDeP2WGwhfuRXRXMD9skefCAgP3GKLdvhc8mBKdPv6zt"
 			]
 		}
 	},
